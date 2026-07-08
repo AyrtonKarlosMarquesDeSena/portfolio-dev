@@ -54,7 +54,7 @@ npm run dev
 ## 📸 Capturas de Tela
 
 ### Desktop
-![Desktop](./public/desktopPerfil.png)
+![Desktop](./src/assets/desktopPerfil.png)
 
 ### Mobile
-![Mobile](./public/mobilePerfil.jpeg)
+![Mobile](./src/assets/mobilePerfil.jpeg)
