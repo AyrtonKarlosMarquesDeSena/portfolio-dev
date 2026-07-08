@@ -32,7 +32,6 @@ Este portfólio foi criado para apresentar minha trajetória como desenvolvedor 
 | **Vite** | Build rápido e desenvolvimento |
 
 ---
-
 ## 🚀 Como Executar
 
 ```bash
@@ -47,14 +46,16 @@ npm install
 
 # 4. Rode o projeto
 npm run dev
-
-
+```
 
 ---
+
 ## 📸 Capturas de Tela
 
 ### Desktop
+
 ![Desktop](./src/assets/desktopPerfil.png)
 
 ### Mobile
+
 ![Mobile](./src/assets/mobilePerfil.jpeg)
