@@ -1,0 +1,220 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem;
+}
+
+.perfil {
+  display: flex;
+  flex-flow: column;
+  border-radius: 1.5rem;
+  background-color: #0f0f0f;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 24px #7829cd;
+  text-align: center;
+}
+
+.titulos {
+  display: flex;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.7rem;
+}
+
+.titulo {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.titulo span {
+  color: #6821b3;
+}
+
+.subTitulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #7c7b7b;
+}
+
+.paragrafo {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 0 2rem;
+  color: #7c7b7b;
+}
+.paragrafo b {
+  font-size: 1.4rem;
+  color: #b5b5b5;
+}
+
+.botoes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient(135deg, #7b3c96, #a855f7, #e87f92);
+  background-size: 200% 200%;
+  background-position: left center;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(120, 41, 205, 0.3);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.625rem 1rem;
+  transition: all 0.3s ease;
+  width: 45%;
+  min-width: 120px;
+}
+
+.botao:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 4px 6px 12px #6723af;
+  background-position: right center; /* Anima o gradiente */
+}
+
+/* home.module.css */
+
+/* Bolinha verde */
+.disponivel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  color: #4ade80;
+}
+
+.bolinha {
+  width: 10px;
+  height: 10px;
+  background: #4ade80;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #4ade80;
+  animation: piscar 1.5s ease-in-out infinite;
+}
+
+@keyframes piscar {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
+
+/* Tagline */
+.tagline {
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numero {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a855f7;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Tecnologias em destaque */
+.techDestaque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: #888;
+}
+
+.techIcons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 2rem;
+}
+
+.techIcon {
+  transition: all 0.3s ease;
+  color: #4a148c;
+}
+
+.techIcon:hover {
+  transform: translateY(-4px) scale(1.2);
+  color: #a855f7;
+}
+
+/* Botão secundário */
+.botaoSecundario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  gap: 0.2rem;
+  border: 2px solid #4a148c;
+  color: #4a148c;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botaoSecundario:hover {
+  background: #4a148c;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Botão de scroll */
+.scrollBtn {
+  background: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.scrollBtn:hover {
+  color: #a855f7;
+  transform: translateY(4px);
+}
